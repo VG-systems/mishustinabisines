@@ -1,0 +1,40 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        /* 
+           Подключаем локальные шрифты.
+           Путь относительный: выходим из favicon, выходим из img, заходим в css/fonts 
+        */
+        @import url('../../css/fonts/fonts.css');
+
+        .bg { 
+            fill: rgb(124, 175, 116); 
+        }
+
+        text {
+            /* Используем локальный шрифт Cormorant Garamond */
+            font-family: 'Cormorant Garamond', serif;
+            font-style: italic;
+            font-weight: 400;
+        }
+
+        .text-o { 
+            font-size: 360px; 
+            fill: rgba(255, 255, 255, 0.9); 
+        }
+
+        .text-m { 
+            /* Используем тот же шрифт, так как Playfair нет в локальных файлах */
+            font-size: 297px; 
+            fill: #ffffff; 
+        }
+    </style>
+
+    <!-- Зеленый фон -->
+    <rect width="512" height="512" class="bg" rx="0" />
+
+    <!-- Буква O -->
+    <text x="40%" y="55%" text-anchor="middle" dominant-baseline="middle" class="text-o">O</text>
+
+    <!-- Буква M -->
+    <text x="58%" y="52%" text-anchor="middle" dominant-baseline="middle" class="text-m">M</text>
+</svg>
