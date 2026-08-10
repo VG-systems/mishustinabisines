@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница не найдена | Ольга Мишустина</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Страница не найдена. Ошибка 404. Возможно, эта коллекция уже снята с производства.">
+    <meta name="robots" content="noindex, follow">
+    <meta name="author" content="Ольга Мишустина">
+    
+    <link rel="canonical" href="https://mishustinabisines.ru/404">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mishustinabisines.ru/404">
+    <meta property="og:title" content="Страница не найдена">
+    <meta property="og:description" content="Похоже, мы потеряли эту выкройку.">
+    <meta property="og:image" content="https://mishustinabisines.ru/assets/img/logos/26.png">
+    <meta property="og:locale" content="ru_RU">
+
+    <!-- Favicon & Icons -->
+    <link rel="icon" type="image/png" href="/assets/img/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" href="/assets/img/favicon/favicon.ico" sizes="any"> <!-- Для старых браузеров -->
+    <link rel="icon" href="/assets/img/favicon/favicon.svg" type="image/svg+xml"> <!-- Для современных -->
+    <link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png"> <!-- Для iPhone/iPad (180x180px) -->
+    <meta name="apple-mobile-web-app-title" content="Ольга Мишустина" />
+    <link rel="manifest" href="/site.webmanifest"> <!-- Опционально для Android -->
+
+    <!-- Fonts & CSS -->
+    <link rel="stylesheet" href="/assets/css/fonts/fonts.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/cookies.css">
+
+    <style>
+        /* Уникальные стили для страницы 404 */
+        .error-hero {
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding-top: 100px;
+            padding-bottom: 60px;
+        }
+        .error-code {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: clamp(100px, 20vw, 250px);
+            line-height: 0.8;
+            color: var(--text-main);
+            opacity: 0.05;
+            margin-bottom: -60px;
+            display: block;
+            pointer-events: none;
+        }
+        .error-title {
+            font-size: clamp(30px, 5vw, 50px);
+            margin-bottom: 20px;
+            position: relative;
+        }
+        .error-desc {
+            max-width: 500px;
+            margin: 0 auto 40px;
+            color: var(--text-secondary);
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .voice-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 50px;
+            padding: 12px 25px;
+            border: 1px solid var(--line-color);
+            border-radius: 50px;
+            cursor: pointer;
+            background: transparent;
+            color: var(--text-main);
+            transition: 0.3s;
+            font-family: 'Manrope', sans-serif;
+            text-transform: uppercase;
+            font-size: 12px;
+            letter-spacing: 1px;
+        }
+        .voice-btn:hover {
+            border-color: var(--text-main);
+            background: var(--bg-color);
+            transform: translateY(-2px);
+        }
+        .voice-icon {
+            width: 10px;
+            height: 10px;
+            background: var(--text-main);
+            border-radius: 50%;
+            display: block;
+            transition: 0.3s;
+        }
+        .voice-btn.playing .voice-icon {
+            background: #d63031; /* Индикатор записи/воспроизведения */
+            animation: pulse-dot 1.5s infinite;
+        }
+        .btn-group {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        @keyframes pulse-dot {
+            0% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.5); opacity: 0.5; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="container nav-flex">
+            <a href="/" class="logo">O. Mishustina</a>
+            <nav class="desktop-menu">
+                <a href="/about">#Кто_Я</a>
+                <a href="/works">#Мои_работы</a>
+                <a href="/contacts">#Мои_контакты</a>
+            </nav>
+            <div class="controls">
+                <button class="theme-btn" id="themeToggle" aria-label="Переключить тему">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                </button>
+                <button class="burger-btn" id="burgerBtn" aria-label="Открыть меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- MOBILE MENU -->
+    <nav class="mobile-menu" id="mobileMenu">
+        <button class="close-btn" id="closeBtn" aria-label="Закрыть меню">&times;</button>
+        <a href="/about">#Кто_Я</a>
+        <a href="/works">#Мои_работы</a>
+        <a href="/contacts">#Мои_контакты</a>
+    </nav>
+
+    <main>
+        <section class="error-hero">
+            <div class="container">
+                
+                <h1 class="error-title fade-up">Нет такой страницы - ошибка:404</h1>
+                
+                <div class="fade-up">
+                    <p class="error-desc">
+                        Похоже, эта страница была снята с производства или никогда не существовала. 
+                        Но у нас есть много других, идеально скроенных проектов.
+                    </p>
+
+                    <!-- Аудио сообщение -->
+                    <button class="voice-btn" id="playErrorVoice">
+                        <span class="voice-icon"></span>
+                        <span id="voiceText">Прослушать сообщение</span>
+                    </button>
+
+                    <div class="btn-group">
+                        <a href="/" class="btn-outline">На главную</a>
+                        <a href="/works" class="btn-outline" >Смотреть портфолио</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-col brand-col">
+                    <a href="/" class="footer-logo">O. Mishustina</a>
+                    <p class="footer-desc">
+                        Между идеей и реальностью.<br>
+                        Fashion Production & Strategy.
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Навигация</h4>
+                    <ul class="footer-links">
+                        <li><a href="/">Главная</a></li>
+                        <li><a href="/about">#Кто_Я</a></li>
+                        <li><a href="/works">#Мои_работы</a></li>
+                        <li><a href="/contacts">#Мои_контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Избранные кейсы</h4>
+                    <ul class="footer-links">
+                        <li><a href="/case-jewelry">Ювелирный бренд</a></li>
+                        <li><a href="/case-stp">Промышленный StP</a></li>
+                        <li><a href="/case-nashe-vremya">Коллекция «Наше время»</a></li>
+                        <li><a href="/case-b2b">B2B Производство</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Связь</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://t.me/ola_blond" target="_blank">Telegram</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div>
+                    <div class="copyright">
+                        © 2025 Ольга Мишустина. Все права защищены.
+                    </div>
+                    <div class="footer-legal">
+                        <a href="/policy">Политика конфиденциальности</a>
+                        <a href="/offer">Публичная оферта</a>
+                        <a href="/disclaimer">Отказ от ответственности</a>
+                    </div>
+                </div>
+                
+                <div class="developer-sign">
+                    <a href="https://vladimir-gordeev.ru/" target="_blank" rel="noopener">
+                        Сайт создан в <span>WEB-Мастерской Владимира Гордеева</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- STICKY TOOLBAR -->
+    <div class="sticky-toolbar">
+        <button class="sticky-btn back-to-top" id="backToTop" aria-label="Наверх">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+        </button>
+        <a href="tel:+79206401020" class="sticky-btn call-btn" aria-label="Позвонить">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+        </a>
+    </div>
+
+    <!-- COOKIE BANNER -->
+    <div class="cookie-banner" id="cookieBanner">
+        <div class="cookie-title">Мы используем cookie</div>
+        <p class="cookie-text">
+            Этот сайт использует куки и аналитику для улучшения работы. 
+            Продолжая, вы соглашаетесь с <a href="/policy">Политикой конфиденциальности</a>.
+        </p>
+        <div class="cookie-buttons">
+            <button class="cookie-btn-decline" id="declineCookies">Отказаться</button>
+            <button class="cookie-btn-accept" id="acceptCookies">Принять</button>
+        </div>
+    </div>
+    
+    <!-- STYLISH MODAL (LIGHTBOX) -->
+    <div id="mediaModal" class="media-modal">
+        <button class="modal-close" aria-label="Закрыть">&times;</button>
+        <div class="modal-backdrop"></div>
+        <div class="modal-content-wrapper">
+            <div id="modalContainer"></div>
+            <p id="modalCaption" class="modal-caption"></p>
+        </div>
+    </div>
+    
+    <!-- STYLISH MODAL (LIGHTBOX) -->
+    <div id="mediaModal" class="media-modal">
+        <button class="modal-close" aria-label="Закрыть">&times;</button>
+        <div class="modal-backdrop"></div>
+        <div class="modal-content-wrapper">
+            <div id="modalContainer"></div>
+            <p id="modalCaption" class="modal-caption"></p>
+        </div>
+    </div>
+
+    <!-- Скрипты -->
+    <script src="/assets/js/cookies.js"></script>
+    <script src="/assets/js/main.js"></script>
+    
+    <!-- Логика аудио -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const voiceBtn = document.getElementById('playErrorVoice');
+            const voiceText = document.getElementById('voiceText');
+            // Указан корректный путь к файлу из структуры
+            const audio = new Audio('/assets/voice/op/40.opus');
+            
+            let isPlaying = false;
+
+            voiceBtn.addEventListener('click', () => {
+                if (!isPlaying) {
+                    audio.play().then(() => {
+                        isPlaying = true;
+                        voiceBtn.classList.add('playing');
+                        voiceText.textContent = "Воспроизведение...";
+                    }).catch(err => {
+                        console.error("Ошибка воспроизведения аудио:", err);
+                        voiceText.textContent = "Аудио недоступно";
+                    });
+                } else {
+                    audio.pause();
+                    audio.currentTime = 0;
+                    isPlaying = false;
+                    voiceBtn.classList.remove('playing');
+                    voiceText.textContent = "Прослушать сообщение";
+                }
+            });
+
+            audio.addEventListener('ended', () => {
+                isPlaying = false;
+                voiceBtn.classList.remove('playing');
+                voiceText.textContent = "Прослушать снова";
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+   <!-- ========================================== -->
+   <!-- ГЛАВНАЯ СТРАНИЦА -->
+   <!-- ========================================== -->
+   <url>
+      <loc>https://mishustinabisines.ru/</loc>
+      <lastmod>2026-02-16</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+      <image:image>
+         <image:loc>https://mishustinabisines.ru/assets/img/1_0001.png</image:loc>
+         <image:title>Ольга Мишустина - Эксперт по производству одежды</image:title>
+         <!-- ИСПРАВЛЕНО ЗДЕСЬ: & заменен на &amp; -->
+         <image:caption>Fashion Production &amp; Strategy</image:caption>
+      </image:image>
+   </url>
+
+   <!-- ========================================== -->
+   <!-- ОБО МНЕ -->
+   <!-- ========================================== -->
+   <url>
+      <loc>https://mishustinabisines.ru/about</loc>
+      <lastmod>2026-02-16</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      <image:image>
+         <image:loc>https://mishustinabisines.ru/assets/img/Olga-Mishustina-bw.avif</image:loc>
+         <image:title>Ольга Мишустина портрет</image:title>
+         <image:caption>Между идеей и реальностью. Fashion Expert.</image:caption>
+      </image:image>
+   </url>
+
+   <!-- ========================================== -->
+   <!-- ПОРТФОЛИО (Общее) -->
+   <!-- ========================================== -->
+   <url>
+      <loc>https://mishustinabisines.ru/works</loc>
+      <lastmod>2026-02-16</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+   </url>
+
+   <!-- ========================================== -->
+   <!-- КЕЙС: B2B ПРОИЗВОДСТВО -->
+   <!-- ========================================== -->
+   <url>
+      <loc>https://mishustinabisines.ru/case-b2b</loc>
+      <lastmod>2026-02-16</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      <image:image>
+         <image:loc>https://mishustinabisines.ru/assets/img/b2b/shveynaya-fabrika-proizvodstvo-odezhdy.avif</image:loc>
+         <image:title>Швейный цех: массовое производство одежды</image:title>
+         <image:caption>Организация B2B производства для брендов</image:caption>
+      </image:image>
+      <image:image>
+         <image:loc>https://mishustinabisines.ru/assets/img/b2b/gotovaya-partiya-odezhdy-upakovka.avif</image:loc>
+         <image:title>Готовая партия одежды, упаковка</image:title>
+      </image:image>
+   </url>
+
+   <!-- ========================================== -->
+   <!-- КЕЙС: ЮВЕЛИРНЫЙ БРЕНД -->
+   <!-- ========================================== -->
+   <url>
+      <loc>https://mishustinabisines.ru/case-jewelry</loc>
+      <lastmod>2026-02-16</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      <image:image>
+         <image:loc>https://mishustinabisines.ru/assets/img/jewelry/stand.avif</image:loc>
+         <image:title>Выставочный стенд ювелирного завода</image:title>
+         <image:caption>Маркетинг ювелирного завода Александра</image:caption>
+      </image:image>
+      <image:image>
+         <image:loc>https://mishustinabisines.ru/assets/img/jewelry/presentation.avif</image:loc>
+         <image:title>Презентация ювелирной коллекции</image:title>
+      </image:image>
+   </url>
+
+   <!-- ========================================== -->
+   <!-- КЕЙС: StP (ПРОМЫШЛЕННОСТЬ) -->
+   <!-- ========================================== -->
+   <url>
+      <loc>https://mishustinabisines.ru/case-stp</loc>
+      <lastmod>2026-02-16</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      <image:image>
+         <image:loc>https://mishustinabisines.ru/assets/img/stp/stp.avif</image:loc>
+         <image:title>Промышленный маркетинг StP</image:title>
+      </image:image>
+      <image:image>
+         <image:loc>https://mishustinabisines.ru/assets/img/stp/merch_set.avif</image:loc>
+         <image:title>Фирменный мерч завода StP</image:title>
+      </image:image>
+   </url>
+
+   <!-- ========================================== -->
+   <!-- КЕЙС: НАШЕ ВРЕМЯ -->
+   <!-- ========================================== -->
+   <url>
+      <loc>https://mishustinabisines.ru/case-nashe-vremya</loc>
+      <lastmod>2026-02-16</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      <image:image>
+         <image:loc>https://mishustinabisines.ru/assets/img/realizatsiya/molodezhnye-futbolki-s-printami-v-stile-sketch.avif</image:loc>
+         <image:title>Молодежная коллекция одежды с принтами</image:title>
+         <image:caption>Коллекция Наше Время для поколения Z</image:caption>
+      </image:image>
+   </url>
+
+   <!-- ========================================== -->
+   <!-- КЕЙС: ИРЭДЗУМИ -->
+   <!-- ========================================== -->
+   <url>
+      <loc>https://mishustinabisines.ru/case-iredzumi</loc>
+      <lastmod>2026-02-16</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      <image:image>
+         <image:loc>https://mishustinabisines.ru/assets/img/realizatsiya/muzhskaya-futbolka-oversize-yaponskiy-juravl-1.avif</image:loc>
+         <image:title>Футболка с японским принтом журавль</image:title>
+         <image:caption>Коллекция Ирэдзуми - тату на одежде</image:caption>
+      </image:image>
+   </url>
+
+   <!-- ========================================== -->
+   <!-- КЕЙС: ЭПОХА 90-Е -->
+   <!-- ========================================== -->
+   <url>
+      <loc>https://mishustinabisines.ru/case-90e</loc>
+      <lastmod>2026-02-16</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      <image:image>
+         <image:loc>https://mishustinabisines.ru/assets/img/realizatsiya/fotosessiya-kollektsii-odezhdy-na-fone-panelok-i-zhiguli-1.avif</image:loc>
+         <image:title>Фотосессия коллекции в стиле 90-х</image:title>
+         <image:caption>Ретро стиль, эстетика панелек и 90-х</image:caption>
+      </image:image>
+   </url>
+
+   <!-- КОНТАКТЫ -->
+   <url>
+      <loc>https://mishustinabisines.ru/contacts</loc>
+      <lastmod>2026-02-16</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+
+</urlset>

@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кейс: Алхимия ювелирного бренда | Портфолио Ольги Мишустиной</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Кейс маркетинговой трансформации ювелирного завода. Как превратить производственное предприятие в бренд-объект желания. B2B, Event-маркетинг, PR.">
+    <meta name="keywords" content="ювелирный маркетинг, брендинг завода, B2B продажи, ивент маркетинг, ольга мишустина, кейс">
+    <meta name="author" content="Ольга Мишустина">
+    
+    <link rel="canonical" href="https://mishustinabisines.ru/case-jewelry">
+	
+
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://mishustinabisines.ru/case-jewelry">
+    <meta property="og:title" content="Алхимия ювелирного бренда">
+    <meta property="og:description" content="История о том, как одна папка на рабочем столе выросла в мощную маркетинговую экосистему.">
+    <meta property="og:image" content="https://mishustinabisines.ru/assets/img/jewelry/stand.avif">
+    <meta property="og:locale" content="ru_RU">
+
+    <!-- Favicon & Icons -->
+    <link rel="icon" type="image/png" href="/assets/img/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" href="/assets/img/favicon/favicon.ico" sizes="any"> <!-- Для старых браузеров -->
+    <link rel="icon" href="/assets/img/favicon/favicon.svg" type="image/svg+xml"> <!-- Для современных -->
+    <link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png"> <!-- Для iPhone/iPad (180x180px) -->
+    <meta name="apple-mobile-web-app-title" content="Ольга Мишустина" />
+    <link rel="manifest" href="/site.webmanifest"> <!-- Опционально для Android -->
+
+    <!-- Fonts & CSS -->
+    <link rel="stylesheet" href="/assets/css/fonts/fonts.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/cookies.css">
+
+    <!-- Schema.org Microdata -->
+    <script type="application/ld+json">
+    [
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Главная",
+            "item": "https://mishustinabisines.ru"
+          },{
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Портфолио",
+            "item": "https://mishustinabisines.ru/works"
+          },{
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Ювелирный бренд"
+          }]
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "CreativeWork",
+            "name": "Маркетинговая стратегия ювелирного завода",
+            "author": { "@type": "Person", "name": "Ольга Мишустина" },
+            "description": "Комплексный кейс по ребрендингу и продвижению ювелирного завода: от B2B мероприятий до работы с селебрити.",
+            "image": "https://mishustinabisines.ru/assets/img/jewelry/stand.avif"
+        }
+    ]
+    </script>
+	<style>
+	.sensitive-wrapper {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.sensitive-wrapper img {
+    filter: blur(14px);
+    transition: filter 0.4s ease;
+    display: block;
+}
+
+.sensitive-wrapper.revealed img {
+    filter: blur(0);
+}
+
+.sensitive-wrapper .overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.4s ease;
+}
+
+.sensitive-wrapper.revealed .overlay {
+    opacity: 0;
+    pointer-events: none;
+}
+
+	</style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="container nav-flex">
+            <a href="/" class="logo">O. Mishustina</a>
+            <nav class="desktop-menu">
+                <a href="/about">#Кто_Я</a>
+                <a href="/works" class="active">#Мои_работы</a>
+                <a href="/contacts">#Мои_контакты</a>
+            </nav>
+            <div class="controls">
+                <button class="theme-btn" id="themeToggle" aria-label="Переключить тему">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                </button>
+                <button class="burger-btn" id="burgerBtn" aria-label="Открыть меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- MOBILE MENU -->
+    <nav class="mobile-menu" id="mobileMenu">
+        <button class="close-btn" id="closeBtn" aria-label="Закрыть меню">&times;</button>
+        <a href="/about">#Кто_Я</a>
+        <a href="/works">#Мои_работы</a>
+        <a href="/contacts">#Мои_контакты</a>
+    </nav>
+
+    <main>
+        <section class="case-header">
+            <div class="container">
+                <span class="case-subtitle fade-up">Ювелирный завод «Александра»</span>
+                <h1 class="case-title fade-up">Алхимия ювелирного бренда: как превратить завод в объект желания</h1>
+            </div>
+        </section>
+
+        <!-- ГЛАВНОЕ ФОТО -->
+        <div class="container">
+             <img src="/assets/img/jewelry/stand.avif" alt="Масштабный выставочный стенд ювелирного завода" class="case-hero-img fade-up">
+        </div>
+
+        <section class="case-content-section">
+            <div class="container">
+                
+                <!-- ВСТУПЛЕНИЕ -->
+                <div class="text-reader-block fade-up">
+                    <p>История о том, как одна папка на рабочем столе выросла в мощную маркетинговую экосистему.</p>
+                    <p>Ювелирный бизнес — это сфера, где ошибка стоит дорого, а доверие нарабатывается годами. Пять лет назад я вошла в эту реку, имея в арсенале лишь амбиции и пустую папку на рабочем столе.</p>
+                    <p>Передо мной стояла задача не просто «настроить рекламу», а выстроить живой организм, который дышит, развивается и приносит прибыль.</p>
+                    <p>Сегодня, оглядываясь назад на сотни проведенных кампаний, я понимаю: маркетинг — это не только цифры. Это умение создавать миры, в которых клиенту хочется остаться навсегда. Вот четыре главы из моей профессиональной жизни, которые лучше всего расскажут, кто я и как я работаю.</p>
+                </div>
+
+                <!-- ГЛАВА 1 -->
+                <div class="text-reader-block fade-up" style="margin-top: 80px;">
+                    <h2>Искусство гостеприимства, или «Шах и мат» конкурентам</h2>
+                    <p>В B2B-продажах есть классический сценарий: шумная выставка, сотни стендов, уставшие байеры. Как выделиться в этом океане блеска? Я решила изменить правила игры.</p>
+                    
+                    <h3>Задача</h3>
+                    <p>Увеличить оптовые продажи, не дожидаясь открытия выставочного сезона.</p>
+                    
+                    <h3>Решение</h3>
+                    <p>Мы не стали ждать клиентов на выставке. Мы привезли их к себе домой.</p>
+                    <p>За неделю до официальных стартов мы организовали закрытый week-end в Костроме. Это был риск. Но мы сделали ставку на эмоции. Мы встречали партнеров не как покупателей, а как дорогих гостей: трансфер, лучшие отели, гастро-туры, экскурсии по старинному городу. И, конечно, индивидуальный доступ к новой коллекции прямо на заводе.</p>
+                </div>
+
+                <!-- ФОТО К ГЛАВЕ 1 -->
+                <div class="gallery-2-col fade-up">
+                    <img src="/assets/img/jewelry/warm_welcome.avif" alt="Встреча партнеров: Теплый прием">
+                    <img src="/assets/img/jewelry/welcome_drink.avif" alt="Атмосфера гостеприимства">
+                </div>
+
+                <div class="text-reader-block fade-up">
+                    <p><strong>Эффект:</strong> Это сработало психологически. В атмосфере заботы и комфорта люди принимают решения иначе. Мы получили лояльных партнеров, которые оставили свой бюджет у нас еще до того, как переступили порог павильонов конкурентов.</p>
+                </div>
+
+                <!-- ГЛАВА 2 -->
+                <div class="text-reader-block fade-up" style="margin-top: 80px;">
+                    <h2>Космос на ладони. Как продать эксклюзив</h2>
+                    <p>Запуск премиальной коллекции — это всегда «русская рулетка». Как объяснить цену украшения, если на рынке тысячи аналогов? Ответ один: перестать продавать камни и начать продавать смыслы.</p>
+                    <p>Когда я увидела новую коллекцию из 12 уникальных гарнитуров, я поняла: это не просто украшения. Редкие минералы — это осколки звезд, застывшая энергия Вселенной. Так родилась концепция «Cosmos».</p>
+                    <p>Мы отказались от стандартной презентации:</p>
+                    <ul style="list-style-type: disc; padding-left: 20px; font-size: 18px; color: var(--text-secondary); line-height: 1.7;">
+                        <li>Каждое украшение получило имя звезды: брошь «Apus», кольцо «Black Snail», гарнитур «Lyra».</li>
+                        <li>Мы создали атмосферу: гости попадали в космический шоурум, получали «космическое питание» в тюбиках и конфеты-планеты.</li>
+                        <li>Каждое изделие сопровождалось паспортом и светящимся футляром.</li>
+                    </ul>
+                </div>
+
+                <!-- ФОТО К ГЛАВЕ 2 -->
+                <div class="pdf-grid-2 fade-up">
+				
+                    <div class="sensitive-wrapper">
+    <img src="/assets/img/jewelry/cosmos_model.avif" 
+         alt="Концепция Cosmos: Модель"
+         class="case-sensitive">
+    <div class="overlay">Контент 16+</div>
+</div>
+
+
+
+                    <img src="/assets/img/jewelry/boxes.avif" alt="Эксклюзивная упаковка коллекции">
+                </div>
+
+                <div class="text-reader-block fade-up">
+                    <p><strong>Результат был ошеломительным:</strong> 8 из 12 гарнитуров (65% коллекции) были выкуплены прямо на презентации. Люди покупали не караты. Они покупали причастность к тайне звезд.</p>
+                </div>
+
+                <!-- ГЛАВА 3 -->
+                <div class="text-reader-block fade-up" style="margin-top: 80px;">
+                    <h2>Когда бренд обретает голос</h2>
+                    <p>«Александра» — это бренд, который я полюбила за честность. Здесь нет масс-маркета, здесь царит культ ручного труда. Но как донести это до клиента через экран смартфона?</p>
+                    
+                    <p>Я сделала ставку на радикальную прозрачность и эстетику. Мы открыли двери «святая святых» — производства. Мы сняли серию фильмов о том, как рождается шедевр: от эскиза художника до инновационного прямого литья. Мы внедрили VR-экскурсии, чтобы каждый мог увидеть магию своими глазами.</p>
+                    
+                    <p>Но главное — мы начали учить. Я запустила внутреннюю академию для менеджеров. Мы разбирали геммологию, историю камней, нюансы огранки. Моей целью было превратить продавцов в экспертов, с которыми интересно говорить. И это подняло ценность бренда в глазах покупателя на новый уровень.</p>
+                </div>
+
+                <!-- ФОТО К ГЛАВЕ 3 -->
+                <div class="pdf-grid-2 fade-up">
+                    <img src="/assets/img/jewelry/production_gems.avif" alt="Работа с камнями в офисе">
+                    <img src="/assets/img/jewelry/presentation.avif" alt="Обучение и презентация продукта">
+                </div>
+
+                <!-- ГЛАВА 4 -->
+                <div class="text-reader-block fade-up" style="margin-top: 80px;">
+                    <h2>В кругу избранных</h2>
+                    <p>Ювелирное украшение — это статус. А статус подтверждается окружением. Моей стратегией в PR стал отказ от прямой, «лобовой» рекламы. Мы пошли путем коллабораций и дружбы с теми, кто сам является иконой стиля.</p>
+                    
+                    <ul style="list-style-type: none; margin: 30px 0;">
+                        <li style="margin-bottom: 15px; padding-left: 20px; border-left: 2px solid var(--text-main);">Мисс Вселенная Оксана Федорова</li>
+                        <li style="margin-bottom: 15px; padding-left: 20px; border-left: 2px solid var(--text-main);">Легендарный историк моды Александр Васильев</li>
+                        <li style="margin-bottom: 15px; padding-left: 20px; border-left: 2px solid var(--text-main);">Олимпийская чемпионка Юлия Липницкая</li>
+                        <li style="margin-bottom: 15px; padding-left: 20px; border-left: 2px solid var(--text-main);">Эксперт стиля Анатоль Вовк</li>
+                    </ul>
+
+                    <p>Это была работа не «по контракту», а по любви. Закрытые ужины, лекции об искусстве, совместные проекты. Когда такие люди выбирают ваш бренд, это говорит громче любых слоганов.</p>
+                </div>
+
+                 <!-- ФОТО К ГЛАВЕ 4 -->
+                 <div class="container fade-up" style="margin-bottom: 60px;">
+                    <img src="/assets/img/jewelry/vasiliev.avif" alt="Ольга Мишустина и Оксана Фёдорова на призентации коллекции ювелирного завода Александра." style="width: 100%; border-radius: 4px;">
+                </div>
+
+                <!-- ЭПИЛОГ -->
+                <div style="margin-top: 100px; border-top: 1px solid var(--line-color); padding-top: 80px;">
+                    <div class="text-reader-block fade-up">
+                        <h2>Вместо эпилога</h2>
+                        <p>За 5 лет та самая «папка на рабочем столе» превратилась в систему, которая работает как швейцарские часы. Но для меня маркетинг — это по-прежнему магия. Магия превращения холодного металла в теплые эмоции, а случайного прохожего — в преданного клиента.</p>
+                    </div>
+
+                    <blockquote class="case-quote fade-up">
+                        «Если вам близок такой подход — вдумчивый, эстетичный и нацеленный на результат, — я буду рада обсудить ваш проект».
+                    </blockquote>
+                    
+                   
+                </div>
+				
+				
+
+            </div>
+			
+			<!-- ВИДЕО (2 колонки) -->
+                <div class="video-grid-2 fade-up">
+					<div class="video-container zoomable">
+						<video autoplay muted loop playsinline poster="/assets/img/jewelry/stand.avif">
+							<source src="/assets/video/1.mp4" type="video/mp4">
+							<source src="/assets/video/1.webm" type="video/webm">
+						</video>
+					</div>
+					<div class="video-container zoomable">
+						<video autoplay muted loop playsinline poster="/assets/img/jewelry/presentation.avif">
+							<source src="/assets/video/2.mp4" type="video/mp4">
+							<source src="/assets/video/2.webm" type="video/webm">
+						</video>
+					</div>
+				</div>
+        </section>
+
+        <!-- ССЫЛКА НА СЛЕДУЮЩИЙ КЕЙС -->
+        <a href="/case-stp" class="next-project-link">
+            <div class="container">
+                <span class="next-label">Следующий проект</span>
+                <span class="next-title">StP: Архитектура тишины</span>
+            </div>
+        </a>
+
+    </main>
+    
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-col brand-col">
+                    <a href="/" class="footer-logo">O. Mishustina</a>
+                    <p class="footer-desc">
+                        Между идеей и реальностью.<br>
+                        Fashion Production & Strategy.
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Навигация</h4>
+                    <ul class="footer-links">
+                        <li><a href="/">Главная</a></li>
+                        <li><a href="/about">#Кто_Я</a></li>
+                        <li><a href="/works">#Мои_работы</a></li>
+                        <li><a href="/contacts">#Мои_контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Избранные кейсы</h4>
+                    <ul class="footer-links">
+                        <li><a href="/case-jewelry">Ювелирный бренд</a></li>
+                        <li><a href="/case-stp">Промышленный StP</a></li>
+                        <li><a href="/case-nashe-vremya">Коллекция «Наше время»</a></li>
+                        <li><a href="/case-b2b">B2B Производство</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Связь</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://t.me/ola_blond" target="_blank">Telegram</a></li>
+                        <!-- <li><a href="https://wa.me/79206401020" target="_blank">WhatsApp</a></li> -->
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div>
+                    <div class="copyright">
+                        © 2026 Ольга Мишустина. Все права защищены.
+                    </div>
+                    <div class="footer-legal">
+                        <a href="/policy">Политика конфиденциальности</a>
+                        <a href="/offer">Публичная оферта</a>
+                        <a href="/disclaimer">Отказ от ответственности</a>
+                    </div>
+                </div>
+                
+                <div class="developer-sign">
+                    <a href="https://vladimir-gordeev.ru/" target="_blank" rel="noopener">
+                        Сайт создан в <span>WEB-Мастерской Владимира Гордеева</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- STICKY TOOLBAR -->
+    <div class="sticky-toolbar">
+        <button class="sticky-btn back-to-top" id="backToTop" aria-label="Наверх">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+        </button>
+        <a href="tel:+79206401020" class="sticky-btn call-btn" aria-label="Позвонить">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+        </a>
+    </div>
+
+    <!-- COOKIE BANNER -->
+    <div class="cookie-banner" id="cookieBanner">
+        <div class="cookie-title">Мы используем cookie</div>
+        <p class="cookie-text">
+            Этот сайт использует куки и аналитику для улучшения работы. 
+            Продолжая, вы соглашаетесь с <a href="/policy">Политикой конфиденциальности</a>.
+        </p>
+        <div class="cookie-buttons">
+            <button class="cookie-btn-decline" id="declineCookies">Отказаться</button>
+            <button class="cookie-btn-accept" id="acceptCookies">Принять</button>
+        </div>
+    </div>
+    
+    <!-- STYLISH MODAL (LIGHTBOX) -->
+    <div id="mediaModal" class="media-modal">
+        <button class="modal-close" aria-label="Закрыть">&times;</button>
+        <div class="modal-backdrop"></div>
+        <div class="modal-content-wrapper">
+            <div id="modalContainer"></div>
+            <p id="modalCaption" class="modal-caption"></p>
+        </div>
+    </div>
+
+    <script src="/assets/js/cookies.js"></script>
+    <script src="/assets/js/main.js"></script>
+	<script>
+document.querySelectorAll('.sensitive-wrapper').forEach(wrapper => {
+    wrapper.addEventListener('click', function(e) {
+        e.stopPropagation();
+
+        // Если ещё не раскрыто — раскрываем
+        if (!wrapper.classList.contains('revealed')) {
+            wrapper.classList.add('revealed');
+        } else {
+            // Если уже раскрыто — открываем в модалке
+            const img = wrapper.querySelector('img');
+            const clone = img.cloneNode();
+            clone.className = "";
+            clone.style = "";
+            
+            const modalContainer = document.getElementById('modalContainer');
+            const modal = document.getElementById('mediaModal');
+            const modalCaption = document.getElementById('modalCaption');
+
+            modalContainer.innerHTML = '';
+            modalContainer.appendChild(clone);
+            modalCaption.textContent = img.alt || '';
+            modal.classList.add('active');
+            document.body.classList.add('no-scroll');
+        }
+    });
+});
+</script>
+
+</body>
+</html>

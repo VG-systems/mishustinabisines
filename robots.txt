@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /assets/css/
+Disallow: /assets/js/
+Disallow: /assets/fonts/
+Disallow: /policy
+Disallow: /offer
+Disallow: /disclaimer
+
+Host: https://mishustinabisines.ru
+Sitemap: https://mishustinabisines.ru/sitemap.xml
