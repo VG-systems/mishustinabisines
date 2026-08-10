@@ -1,0 +1,95 @@
+.cookie-banner {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    max-width: 400px;
+    width: calc(100% - 60px);
+    background: var(--glass-bg); /* Используем переменную темы */
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid var(--line-color);
+    padding: 25px;
+    border-radius: 4px; /* Острые углы под стиль сайта */
+    z-index: 9999;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: all 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.cookie-banner.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.cookie-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: var(--text-main);
+}
+
+.cookie-text {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.cookie-text a {
+    text-decoration: underline;
+    color: var(--text-main);
+}
+
+.cookie-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.cookie-btn-accept {
+    flex: 1;
+    background: var(--text-main);
+    color: var(--bg-color);
+    border: 1px solid var(--text-main);
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cookie-btn-accept:hover {
+    opacity: 0.9;
+}
+
+.cookie-btn-decline {
+    flex: 1;
+    background: transparent;
+    color: var(--text-secondary);
+    border: 1px solid var(--line-color);
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cookie-btn-decline:hover {
+    border-color: var(--text-main);
+    color: var(--text-main);
+}
+
+@media (max-width: 600px) {
+    .cookie-banner {
+        left: 20px;
+        bottom: 20px;
+        width: calc(100% - 40px);
+        padding: 20px;
+    }
+}
